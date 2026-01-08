@@ -120,7 +120,7 @@ This command performs the following:
 To explore the simulation results using interactive charts and sliders, run:
 
 ```bash
-python run_vis.py
+python -u .\run_vis.py
 ```
 This starts a local visualization server that allows:
 - Dynamic exploration of PLB capacity
@@ -186,7 +186,7 @@ This file contains step-wise simulation results capturing stand occupancy status
 **Format:**
 
 ```text
-id, PLB_Occupied, Remote_Occupied, Total_Parked
+id, PLB_Occupied, Remote_Occupied, Service Quality Index
 ```
 - id: Simulation step or time index
 - PLB_Occupied: Number of PLB stands occupied at that step
