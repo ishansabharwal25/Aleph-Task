@@ -23,6 +23,24 @@ In addition to the core simulation, the project includes a **sensitivity analysi
 - **Remote Overflow Count**: Number of aircraft assigned to remote stands
 - **Service Distribution**: Proportion of aircraft served by PLB vs remote stands
 - **Penalty Impact (Remote Minutes)**: Total penalty incurred due to remote stand usage
+  
+
+<h3 align="center">Simulation Demo</h3>
+
+<table align="center">
+  <tr>
+    <td align="center">
+      <img src="assets/Animation.gif" width="400" alt="Scenario A Demo" />
+      <br />
+      <b>PLB/Remote Count And Service Quality</b>
+    </td>
+    <td align="center">
+      <img src="assets/Result.gif" width="400" alt="Scenario B Demo" />
+      <br />
+      <b>Performance Metrics</b>
+    </td>
+  </tr>
+</table>
 
 ### Key Components
 
