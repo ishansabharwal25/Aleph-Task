@@ -234,7 +234,7 @@ These results are:
 - Used to compare trade-offs between PLB availability and operational efficiency
 
 ---
-## ⚠️ Assumptions, Simplifications, and Trade-offs
+## ⚠️ Assumptions, and Trade-offs
 
 To keep the simulation focused, interpretable, and computationally efficient, the following assumptions and simplifications were made, along with their associated trade-offs:
 
