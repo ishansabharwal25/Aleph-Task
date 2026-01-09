@@ -81,6 +81,14 @@ This structure ensures a clean separation between **data generation**, **simulat
 - **Python version**: Python 3.11.4
 - Tested on Python 3.11.4 with the dependencies listed below
 
+### Create and Activate a Virtual Environment (Recommended)
+Before installing dependencies, create and activate a virtual environment to isolate the project environment.
+
+```bash
+python -m venv venv 
+venv\Scripts\activate
+```
+
 ### Install Dependencies
 It is recommended to use a virtual environment.
 
