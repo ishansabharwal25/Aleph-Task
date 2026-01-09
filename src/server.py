@@ -107,6 +107,11 @@ class MetricsDisplay(TextElement):
         
         total_remote_minutes = int(results_df["Remote_Occupied"].sum())
         
+        # Determine color classes based on thresholds
+        utilization_class = "danger" if plb_utilization > 90 else ("warning" if plb_utilization > 75 else "")
+        overflow_class = "danger" if remote_overflow_count > 50 else ("warning" if remote_overflow_count > 20 else "")
+        penalty_class = "danger" if total_remote_minutes > 5000 else ("warning" if total_remote_minutes > 2000 else "")
+        
         return f"""
         <div class="metrics-container">
             <h2 style="text-align: center; color: #333; margin-top: 0;">📊 Performance Metrics</h2>
